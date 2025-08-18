@@ -153,7 +153,34 @@ const CUSTOMER_SITES = {
         api: 'https://www.fczy907.com/api.php/provide/vod',
         name: '木瓜AC',
         adult: true
-    }
+    },
+    thzy4: {
+        api: 'https://thzy1.me/api.php/provide/vod/',
+        name: '桃花资源',
+        adult: true
+    },  
+    laosebi: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod/',
+        name: '色逼资源',
+        adult: true
+    },    
+    fhzy10: {
+        api: 'http://fhapi9.com/api.php/provide/vod',
+        name: '番号资源',
+        adult: true
+    },       
+    yyzywcj: {
+        api: 'https://www.yyzywcj.com/api.php/provide/vod/',
+        name: '优优资源',
+        adult: true
+    },       
+    zuise: {
+        api: 'https://api.zuiseapi.com/api.php/provide/vod/',
+        name: '最色资源',
+        adult: true
+    }    
+
+    
 };
 
 // 调用全局方法合并
