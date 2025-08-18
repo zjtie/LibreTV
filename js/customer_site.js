@@ -1,133 +1,159 @@
 const CUSTOMER_SITES = {
-    qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七七资源',
+    jyzy: {
+        api: 'https://jyzyapi.com/provide/vod',
+        name: '金鹰资源ll',
     },
-    dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
+    ffzy: {
+        api: 'http://ffzy5.tv/api.php/provide/vod/api.php/provide/vod',
+        name: '非凡资源ll',
+    },
+    slzy: {
+        api: 'https://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
+        adult: true
+    },
+    mdzy: {
+        api: 'https://www.bt4.cc/api.php/provide/vod',
+        name: '麻豆资源',
+        adult: true
+    },
+    yhzy: {
+        api: 'https://yhzy.cc/api.php/provide/vod',
+        name: '樱花资源ll',
+    },
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源ll',
+    },
+    dytt: {
+        api: 'https://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂',
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
     },
-    bfzy: {
-        api: 'https://bfzyapi.com/api.php/provide/vod',
-        name: '暴风资源',
-    },
-    tyyszy: {
-        api: 'https://tyyszy.com/api.php/provide/vod',
-        name: '天涯资源',
-    },
-    ffzy: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡影视',
-        detail: 'http://ffzy5.tv', 
-    },
-    heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv', 
-    },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
-        name: '360资源',
-    },
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: 'iqiyi资源',
-    },
-    wolong: {
-        api: 'https://wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源',
-    }, 
-    hwba: {
-        api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源',
+        name: '360资源ll',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
-        name: '极速资源',
-        detail: 'https://jszyapi.com', 
-    },
-    dbzy: {
-        api: 'https://dbzy.com/api.php/provide/vod',
-        name: '豆瓣资源',
+        name: '极速资源ll',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: '魔爪资源',
-    },
-    mdzy: {
-        api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源',
+        name: '魔爪资源xxx',
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源'
-    },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源'
-    },
-    baidu: {
-        api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源'
+        name: '最大资源ll',
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源'
-    },
-    wwzy: {
-        api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺短剧'
+        name: '无尽资源ll',
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
+        name: 'iKun资源ll',
     },
-ckzy: {
-    api: 'https://www.ckzy1.com',
-    name: 'CK资源',
-    adult: true
-},
-jkun: {
-    api: 'https://jkunzyapi.com',
-    name: 'jkun资源',
-    adult: true
-},
-bwzy: {
-    api: 'https://api.bwzym3u8.com',
-    name: '百万资源',
-    adult: true
-},
-souav: {
-    api: 'https://api.souavzy.vip',
-    name: 'souav资源',
-    adult: true
-},
-r155: {
-    api: 'https://155api.com',
-    name: '155资源',
-    adult: true
-},
-lsb: {
-    api: 'https://apilsbzy1.com',
-    name: 'lsb资源',
-    adult: true
-},
-huangcang: {
-    api: 'https://hsckzy.vip',
-    name: '黄色仓库',
-    adult: true,
-    detail: 'https://hsckzy.vip'
-},
-yutu: {
-    api: 'https://yutuzy10.com',
-    name: '玉兔资源',
-    adult: true
-}    
+    r91: {
+        api: 'https://91md.me/api.php/provide/vod',
+        name: '91资源',
+        adult: true
+    },
+    lajiao: {
+        api: 'https://apilj.com/api.php/provide/vod',
+        name: '辣椒资源',
+        adult: true
+    },
+    souav: {
+        api: 'https://api.souavzy.vip/api.php/provide/vod',
+        name: 'souav资源',
+        adult: true
+    },
+    ckzy: {
+        api: 'https://ckzy.me/api.php/provide/vod',
+        name: 'CK资源ll',
+    },
+    jkun: {
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
+        name: 'jkun资源',
+        adult: true
+    },
+    bwzy: {
+        api: 'https://api.bwzyz.com/api.php/provide/vod',
+        name: '百万资源',
+        adult: true
+    },
+    r155: {
+        api: 'https://155api.com/api.php/provide/vod',
+        name: '155资源',
+        adult: true
+    },
+    lsb: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
+        name: 'lsb资源',
+        adult: true
+    },
+    huangcang: {
+        api: 'https://hsckzy.vip/api.php/provide/vod',
+        name: '黄色仓库',
+        adult: true
+    },
+    yutu: {
+        api: 'https://yutuzy10.com/api.php/provide/vod',
+        name: '玉兔资源',
+        adult: true
+    },
+    maotai: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源ll',
+    },
+    kuaibo: {
+        api: 'https://gayapi.com/api.php/provide/vod',
+        name: '快播资源',
+        adult: true
+    },
+    xingba: {
+        api: 'https://xingba222.com/api.php/provide/vod',
+        name: '杏吧资源',
+        adult: true
+    },
+    r91jp: {
+        api: 'https://91jpzyw.com/api.php/provide/vod',
+        name: '91jpzyw',
+        adult: true
+    },
+    danai: {
+        api: 'https://apidanaizi.com/api.php/provide/vod',
+        name: '大奶资源',
+        adult: true
+    },
+    maoyan: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: '猫眼资源ll',
+    },
+    xibao: {
+        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
+        name: '细胞资源',
+        adult: true
+    },
+    shayu: {
+        api: 'https://shayuzy.com/api.php/provide/vod',
+        name: '鲨鱼资源',
+        adult: true
+    },
+    xiaoji: {
+        api: 'https://api.xiaojizy.live/provide/vod',
+        name: '小鸡资源',
+        adult: true
+    },
+    mugua: {
+        api: 'https://www.fczy907.com/api.php/provide/vod',
+        name: '木瓜AC',
+        adult: true
+    }
 };
 
 // 调用全局方法合并
