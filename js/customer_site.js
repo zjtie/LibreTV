@@ -178,8 +178,53 @@ const CUSTOMER_SITES = {
         api: 'https://api.zuiseapi.com/api.php/provide/vod/',
         name: '最色资源',
         adult: true
-    }    
+    },
 
+    "naixiangxiangziyuan": {
+    "api": "https://naixxzy.com/api.php/provide/vod",
+    "name": "奶香香资源",
+    "adult": true
+  },
+  "senlinziyuan": {
+    "api": "https://slapibf.com/api.php/provide/vod",
+    "name": "森林资源",
+    "adult": true
+  },
+  "aosikaziyuan": {
+    "api": "https://aosikazy.com/api.php/provide/vod",
+    "name": "奥斯卡资源",
+    "adult": true
+  },
+  "dadiziyuan": {
+    "api": "http://dadizy.com/api.php/provide/vod",
+    "name": "大地资源",
+    "adult": true
+  },
+  "didiziyuan": {
+    "api": "https://api.ddapi.cc/api.php/provide/vod",
+    "name": "滴滴资源",
+    "adult": true
+  },
+  "semaiziyuan": {
+    "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+    "name": "色猫资源",
+    "adult": true
+  },
+  "siwaziyuan": {
+    "api": "https://www.siwazyw.tv/api.php/provide/vod",
+    "name": "丝袜资源",
+    "adult": true
+  },
+  "huangguaziyuan": {
+    "api": "https://www.avre06.com/api.php/provide/vod",
+    "name": "黄瓜资源",
+    "adult": true
+  },
+  "laosebiziyuan": {
+    "api": "https://apilsbzy.com/api.php/provide/vod",
+    "name": "老色逼资源",
+    "adult": true
+  }    
     
 };
 
